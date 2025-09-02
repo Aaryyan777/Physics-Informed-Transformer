@@ -8,7 +8,7 @@
 
 ## 1. Executive Summary
 
-This project presents a breakthrough in AI-driven hardware modeling: a **physics-informed, Transformer-based deep learning system** for predicting CPU/GPU power consumption. Our model achieves an unprecedented **R² coefficient of 0.9997** and a **Mean Absolute Percentage Error (MAPE) of just 1.67%**, a level of accuracy that matches or exceeds that of costly physical hardware sensors.
+This project presents an AI-driven hardware modeling: a **physics-informed, Transformer-based deep learning system** for predicting CPU/GPU power consumption. Our model achieves a **R² coefficient of 0.9997** and a **Mean Absolute Percentage Error (MAPE) of just 1.67%**.
 
 The core innovations are twofold:
 1.  **A Novel Architecture:** The application of a streamlined **Transformer with temporal attention** to understand the complex, time-series nature of hardware performance counters.
