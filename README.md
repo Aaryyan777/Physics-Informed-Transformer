@@ -11,10 +11,10 @@
 This project presents an AI-driven hardware modeling: a **physics-informed, Transformer-based deep learning system** for predicting CPU/GPU power consumption. Our model achieves a **R² coefficient of 0.9997** and a **Mean Absolute Percentage Error (MAPE) of just 1.67%**.
 
 The core innovations are twofold:
-1.  **A Novel Architecture:** The application of a streamlined **Transformer with temporal attention** to understand the complex, time-series nature of hardware performance counters.
-2.  **A High-Fidelity Simulation:** A **physics-based data generator** that creates a rich, dynamic dataset reflecting real-world hardware behavior, including thermal throttling and non-linear frequency scaling.
+1.  **A Novel Architecture:** The application of a streamlined **Transformer with Temporal Attention** to understand the complex, time-series nature of hardware performance counters.
+2.  **A High-Fidelity Simulation:** A **physics-based data generator** that creates a rich, dynamic dataset reflecting real-world hardware behavior, including Thermal Throttling and **Non-Linear Frequency Scaling**.
 
-This document provides a comprehensive deep dive into the project's methodology, code, and state-of-the-art results.
+This document provides a comprehensive deep dive into the project's methodology, code, and the results.
 
 ---
 
@@ -85,7 +85,7 @@ High-quality data is the bedrock of any high-performance model. Instead of using
 
 ### 3.2. Pillar 2: The `OptimizedPowerTransformer`
 
-To interpret the sequential data from our generator, we designed a streamlined Transformer model. The Transformer's **self-attention mechanism** can weigh the importance of all time-steps simultaneously, making it exceptionally good at capturing complex temporal patterns.
+To interpret the sequential data from our generator, we designed a streamlined Transformer model. The Transformer's **Self-Attention Mechanism** can weigh the importance of all time-steps simultaneously, making it exceptionally good at capturing complex temporal patterns.
 
 #### Code Breakdown:
 
