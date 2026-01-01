@@ -224,8 +224,7 @@ This project is licensed under the MIT License.
 
 ## 9. Author
 
-**[Your Name]**
+**[Aaryyan Pradhan]**
 
-*   **Email:** [your.email@example.com](mailto:your.email@example.com)
-*   **LinkedIn:** [linkedin.com/in/your-profile](https://linkedin.com/in/your-profile)
-*   **GitHub:** [github.com/your-username](https://github.com/your-username)
+*   **Email:** [23f2000285@ds.study.iitm.ac.in](mailto:23f2000285@ds.study.iitm.ac.in)
+*   **GitHub:** [github.com/Aaryyan777](https://github.com/Aaryyan777)
